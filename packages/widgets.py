@@ -5,18 +5,12 @@ import numpy as np
 from ipywidgets import (
     IntText,
     FloatText,
-    RadioButtons,
-    BoundedIntText,
     Checkbox,
     Layout,
-    Output,
-    Button,
     DatePicker,
     Dropdown,
-    Label,
     HBox,
     HTML,
-    VBox
 )
 
 class DataEntryWidget:
