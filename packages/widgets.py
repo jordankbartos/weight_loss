@@ -76,6 +76,7 @@ class FloatInput(DataEntryWidget):
 
     @value.setter
     def value(self, value):
+        
         self.input.value = value
 
     def to_box(self):
