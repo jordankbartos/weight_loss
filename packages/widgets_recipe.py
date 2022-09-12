@@ -149,6 +149,22 @@ items_list = [
         "col_title": "Resting Heart Rate",
     },
     {
+        "widget_class": IntInput,
+        "widget_class_args": {},
+        "type": float,
+        "default_val": 0,
+        "units": "mmHg",
+        "col_title": "Diastolic BP",
+    },
+    {
+        "widget_class": IntInput,
+        "widget_class_args": {},
+        "type": float,
+        "default_val": 0,
+        "units": "mmHg",
+        "col_title": "Systolic BP",
+    },
+    {
         "widget_class": TimeInput,
         "widget_class_args": {},
         "type": float,
